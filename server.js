@@ -1,5 +1,6 @@
 import express from "express";
 import multer from "multer";
+const response = await fetch("https://api.thehive.ai/api/v2/task/sync", {
 import FormData from "form-data";
 import fs from "fs";
 import cors from "cors";
